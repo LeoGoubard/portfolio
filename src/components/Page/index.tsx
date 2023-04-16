@@ -11,7 +11,7 @@ type Props = {
 
 function Page({ setPageCounter, pageItem }: Props) {
   return (
-    <div className="border h-5/6 w-2/6 bg-slate-100 flex flex-col justify-between">
+    <div className="border h-5/6 w-2/6 bg-[#F9F9F9] flex flex-col justify-between">
         <Content pageItem={pageItem} />
         {!pageItem.cover && (
                 <div onClick={() => setPageCounter((prevState: any) => ({ ...prevState, value1: prevState.value1 + 2, value2: prevState.value2 + 2 }))} className="absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-[83%] left-[81%] w-20">

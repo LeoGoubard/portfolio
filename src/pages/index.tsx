@@ -64,7 +64,7 @@ const Home = () => {
       </section> */}
       <div className="flex flex-1 justify-center items-center h-screen">
         <div className="h-5/6 mr-5 flex">
-          <div className="flex items-center w-9 pt-5 pb-5 flex-col text-black justify-between bg-red-500">
+          <div className="flex items-center w-9 pt-5 pb-5 flex-col text-black justify-between bg-[#FF6665]">
             <p className="rotate-m90">©2023</p>
             <p className="truncate rotate-m90">Leo Goubard</p>
             <p className="rotate-m90 truncate mb-12">Javascript developer</p>
@@ -75,7 +75,7 @@ const Home = () => {
         )}
         {pages[pageCounter.value2] && pageCounter.value1 !== 0 &&  (
           <>
-            <div className="h-5/6 w-3 bg-gradient-to-r from-slate-100  via-[rgb(166,165,165)] to-slate-100 ">
+            <div className="h-5/6 w-3 bg-gradient-to-r from-[#F9F9F9]  via-[rgb(166,165,165)] to-[#F9F9F9] ">
             </div>
             <Page key={pages[pageCounter.value2].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value2]}/>
           </>
