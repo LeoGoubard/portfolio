@@ -14,7 +14,7 @@ function Page({ setPageCounter, pageItem }: Props) {
     <div className="border h-5/6 w-2/6 bg-slate-100 flex flex-col justify-between">
         <Content pageItem={pageItem} />
         {!pageItem.cover && (
-                <div onClick={() => setPageCounter((prevState: any) => ({ ...prevState, value1: prevState.value1 + 2, value2: prevState.value2 + 2 }))} className="absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-[83%] left-[80%] w-20">
+                <div onClick={() => setPageCounter((prevState: any) => ({ ...prevState, value1: prevState.value1 + 2, value2: prevState.value2 + 2 }))} className="absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-[83%] left-[81%] w-20">
 
                 </div>
         )}
@@ -24,7 +24,7 @@ function Page({ setPageCounter, pageItem }: Props) {
                 </div>
         )}
         {pageItem.cover && (
-            <div onClick={() => setPageCounter((prevState: any) => ({ ...prevState, value1: prevState.value1 + 1, value2: prevState.value2 + 2 }))} className="absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-[83%] left-[63%] w-20">
+            <div onClick={() => setPageCounter((prevState: any) => ({ ...prevState, value1: prevState.value1 + 1, value2: prevState.value2 + 2 }))} className="absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-[83%] left-[64%] w-20">
 
             </div>
         )}
