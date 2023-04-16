@@ -7,32 +7,40 @@ import Hero from '../components/Hero';
 import About from "../components/About";
 import image from "../assets/desert.jpg"
 import Page from '../components/Page';
+import { PageType } from '../types';
+
 
 const Home = () => {
   
-  const pages = [
+  const pages: PageType[] = [
     {
       cover: true,
-      index: 0
+      index: 0,
+      automaticWords: ["Javascript developer 1.7 years of experience", "For my love of Cinema and Literature"]
     },
     {
-      content: 'machallah',
+      cover: false,
+      content: 'Page1',
       index: 1
     },
     {
-      content: 'toplaner des Koy',
+      cover: false,
+      content: 'Page 2',
       index: 2
     },
     {
-      content: 'toplaner des Koy',
+      cover: false,
+      content: 'Page 3',
       index: 3
     },
     {
-      content: 'toplaner des Koy',
+      cover: false,
+      content: 'Page 4',
       index: 4
     },
     {
-      content: 'toplaner des Koy',
+      cover: false,
+      content: 'Page 5',
       index: 5
     }
   ]
@@ -66,7 +74,11 @@ const Home = () => {
           <Page key={pages[pageCounter.value1].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value1]}/>
         )}
         {pages[pageCounter.value2] && pageCounter.value1 !== 0 &&  (
-          <Page key={pages[pageCounter.value2].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value2]}/>
+          <>
+            <div className="h-5/6 w-3 bg-gradient-to-r from-slate-100  via-[rgb(166,165,165)] to-slate-100 ">
+            </div>
+            <Page key={pages[pageCounter.value2].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value2]}/>
+          </>
         )}{/* 
         {pages.map((pageItem) => (
           <Page key={pageItem.index} setPageCounter={setPageCounter} pageItem={pageItem}/>

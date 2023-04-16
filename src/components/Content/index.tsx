@@ -1,23 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import { PageType } from '../../types';
 
 type Props = {
-    words: string[],
-    type: string,
-    pageCounter: number
+    pageItem: PageType
 }
 
 
-function Content({ words, type, pageCounter }: Props) {
+function Content({ pageItem }: Props) {
     const [text, count] = useTypewriter({
-        words,
+        words: pageItem.automaticWords || [],
         loop: true,
         delaySpeed: 2000
     })
   return (
     <>
-        {type == 'cover' && (
+        {pageItem.cover ? (
             <>
                 <div className="font-extrabold text-black ml-2">
                     <div className="text-xs flex justify-end ">
@@ -37,10 +36,14 @@ function Content({ words, type, pageCounter }: Props) {
                     />
                     <div className="flex justify-between">
                         <p className="font-extrabold text-black text-xs pl-2 pb-1">©2023</p>
-                        <p className="font-bold text-black text-xs pl-2 pb-1 pr-2">{pageCounter === 0 ? "" : pageCounter}</p>
+                        <p className="font-bold text-black text-xs pl-2 pb-1 pr-2">{pageItem.index === 0 ? "" : pageItem.index}</p>
                     </div>
                 </div> 
             </>
+        ) : (
+            <div className="h-screen font-extrabold text-black flex justify-center flex-col text-center">
+                <h1 className="text-7xl">{pageItem.content}</h1>
+            </div>
         )}
     </>
     )
