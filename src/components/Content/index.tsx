@@ -2,47 +2,38 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import { PageType } from '../../types';
+import CoverContent from './coverContent';
 
 type Props = {
     pageItem: PageType
 }
-
-
 function Content({ pageItem }: Props) {
-    const [text, count] = useTypewriter({
-        words: pageItem.automaticWords || [],
-        loop: true,
-        delaySpeed: 2000
-    })
+    function timeLineContent(timeLineItem: any) {
+        const { content1, content2, date } = timeLineItem;
+        return (
+            <>
+                <time className="mb-1 font-normal leading-none text-gray-400 text-lg dark:text-gray-500">{date}</time>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-500">{content1}</h3>
+                <p className="mb-4 text-base border-b border-gray-100 font-normal text-gray-500 dark:text-gray-400">{content2}</p>
+            </>
+        )
+    }
+
   return (
     <>
-        {pageItem.cover ? (
-            <>
-                <div className="font-extrabold text-black ml-2">
-                    <div className="text-xs flex justify-end ">
-                        <p className="font-extrabold text-black p-2">Leo goubard personnal portfolio</p>
-                    </div>
-                    <h1 className="text-7xl mt-2">Leo <br />Goubard</h1>
-                </div>
-                <div>
-                    <h1 className="text-l text-black font-semibold ml-2">
-                        <span className="">{text}</span>
-                        <Cursor cursorColor="#000000" />
-                    </h1>
-                    <img
-                        src="https://images.unsplash.com/photo-1542401886-65d6c61db217?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                        alt=""
-                        className="p-2 object-cover md:w-64 md:h-95 lg:w-auto"
-                    />
-                    <div className="flex justify-between">
-                        <p className="font-extrabold text-black text-xs pl-2 pb-1">©2023</p>
-                        <p className="font-bold text-black text-xs pl-2 pb-1 pr-2">{pageItem.index === 0 ? "" : pageItem.index}</p>
-                    </div>
-                </div> 
-            </>
-        ) : (
-            <div className="h-screen font-extrabold text-black flex justify-center flex-col text-center">
-                <h1 className="text-7xl">{pageItem.content}</h1>
+    {pageItem.cover && (
+            <CoverContent pageItem={pageItem} />
+        )}
+        {pageItem.index == 1 && (
+            <div className="flex flex-col h-full">
+                <ol className="relative border-l scrollbar-thin scrollbar-thumb-red-100 scrollbar-track-white-100 overflow-auto border-gray-200 m-5 dark:border-gray-700">                  
+                    {pageItem.timeLine?.map((timeLineItem: any, index) => (
+                        <li className="m-3 mt-6 first:mt-0" key={index}>
+                            {timeLineContent(timeLineItem)}
+                        </li>
+                    ))}
+                </ol>
+                <div className="text-black flex justify-end w-full">{pageItem.index}</div>
             </div>
         )}
     </>

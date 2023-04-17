@@ -3,4 +3,5 @@ export type PageType = {
     index: number,
     automaticWords?: string[],
     content?: string
+    timeLine?: any[]
 }

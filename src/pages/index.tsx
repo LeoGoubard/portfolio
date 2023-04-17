@@ -21,7 +21,54 @@ const Home = () => {
     {
       cover: false,
       content: 'Page1',
-      index: 1
+      index: 1,
+      timeLine: [
+        {
+          date: 'November 2022 - Present',
+          content1: 'Formation TypeScript, Projects',
+          content2: 'Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.'
+        },
+        {
+          date: 'August 2022 - November 2022',
+          content1: 'Solotech - Montreal',
+          content2: 'In full remote with a Canadian Client in a project with Vue/Node/GraphQL/AWS'
+        },
+        {
+          date: 'January 2021 - May 2022',
+          content1: 'Joinery Business Solution - Nantes',
+          content2: 'A Saas application in MERN stack for a carpentry Society.'
+        },
+        {
+          date: 'July 2020 - December 2020',
+          content1: 'Projects / Job seeking',
+          content2: 'A formation for bein a developer.'
+        },
+        {
+          date: 'January 2020 - July 2020',
+          content1: 'O\'Clock',
+          content2: 'A formation for bein a developer.'
+        },
+        {
+          date: 'February 2019 - December 2019',
+          content1: 'Jobs',
+          content2: 'Many differents jobs, travel through the two islands.'
+        },
+        {
+          date: 'February 2018 - February 2019',
+          content1: 'WHV New Zealand',
+          content2: 'Many differents jobs, travel through the two islands.'
+        },
+        {
+          date: 'September 2014 - July 2017',
+          content1: 'Bachelor degree in Aesthetic of cinema',
+          content2: 'All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.'
+        },
+        {
+          date: 'September 2010 - July 2014',
+          content1: 'Bac ',
+          content2: 'All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.'
+        }
+      ]
     },
     {
       cover: false,
