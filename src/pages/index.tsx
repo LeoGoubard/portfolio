@@ -46,7 +46,7 @@ const Home = () => {
   ]
   
   const [pageCounter, setPageCounter] = useState({ value1: 0, value2: 0, min: 0, max: pages.length + 1})
-
+  console.log('counter', pageCounter);
   return (
     <div className="bg-[rgb(36,36,36)] text-white flex flex-col font-poppins justify-center h-screen">
       <Head>
