@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import Image from 'next/image'
 import Head from 'next/head'
 import Header from '../components/Header';
@@ -8,67 +8,23 @@ import About from "../components/About";
 import image from "../assets/desert.jpg"
 import Page from '../components/Page';
 import { PageType } from '../types';
+import { useTranslation } from "react-i18next";
+import i18n from "../i18n";
 
 
-const Home = () => {
-  
+const Home = ({ changeLocale }: any) => {
+  const { t } = useTranslation();
+
   const pages: PageType[] = [
     {
       cover: true,
       index: 0,
-      automaticWords: ["Javascript developer 1.7 years of experience", "For my love of Cinema and Literature"]
     },
     {
       cover: false,
       content: 'Page1',
       index: 1,
-      timeLine: [
-        {
-          date: 'November 2022 - Present',
-          content1: 'Formation TypeScript, Projects',
-          content2: 'Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.'
-        },
-        {
-          date: 'August 2022 - November 2022',
-          content1: 'Solotech - Montreal',
-          content2: 'In full remote with a Canadian Client in a project with Vue/Node/GraphQL/AWS'
-        },
-        {
-          date: 'January 2021 - May 2022',
-          content1: 'Joinery Business Solution - Nantes',
-          content2: 'A Saas application in MERN stack for a carpentry Society.'
-        },
-        {
-          date: 'July 2020 - December 2020',
-          content1: 'Projects / Job seeking',
-          content2: 'A formation for bein a developer.'
-        },
-        {
-          date: 'January 2020 - July 2020',
-          content1: 'O\'Clock',
-          content2: 'A formation for bein a developer.'
-        },
-        {
-          date: 'February 2019 - December 2019',
-          content1: 'Jobs',
-          content2: 'Many differents jobs, travel through the two islands.'
-        },
-        {
-          date: 'February 2018 - February 2019',
-          content1: 'WHV New Zealand',
-          content2: 'Many differents jobs, travel through the two islands.'
-        },
-        {
-          date: 'September 2014 - July 2017',
-          content1: 'Bachelor degree in Aesthetic of cinema',
-          content2: 'All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.'
-        },
-        {
-          date: 'September 2010 - July 2014',
-          content1: 'Bac ',
-          content2: 'All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.'
-        }
-      ]
+      timeLine: [0, 1, 2, 3, 4, 5, 6, 7, 8]
     },
     {
       cover: false,
@@ -93,7 +49,7 @@ const Home = () => {
   ]
   
   const [pageCounter, setPageCounter] = useState({ value1: 0, value2: 0, min: 0, max: pages.length + 1})
-  console.log('counter', pageCounter);
+
   return (
     <div className="bg-[rgb(36,36,36)] text-white flex flex-col font-poppins justify-center h-screen">
       <Head>
@@ -112,9 +68,9 @@ const Home = () => {
       <div className="flex flex-1 justify-center items-center h-screen">
         <div className="h-5/6 mr-5 flex">
           <div className="flex items-center w-9 pt-5 pb-5 flex-col text-black justify-between bg-[#FF6665]">
-            <p className="rotate-m90">©2023</p>
+            <button onClick={() => changeLocale()} type="button" className="rotate-m90 underline" >EN/FR</button>
             <p className="truncate rotate-m90">Leo Goubard</p>
-            <p className="rotate-m90 truncate mb-12">Javascript developer</p>
+            <p className="rotate-m90 truncate mb-12">{t('cover.job')}</p>
           </div>
         </div>
         {pages[pageCounter.value1] && (

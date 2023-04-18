@@ -2,14 +2,15 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import { PageType } from '../../types';
-
+import { useTranslation } from "react-i18next";
 type Props = {
     pageItem: PageType
 }
 
 export default function CoverContent({ pageItem }: Props) {
+    const { t } = useTranslation();
     const [text, count] = useTypewriter({
-        words: pageItem.automaticWords || [],
+        words: [t('cover.dynamicText1'), t('cover.dynamicText2')] || [],
         loop: true,
         delaySpeed: 2000
     })

@@ -28,13 +28,12 @@ type Props = {
       )
     }
         
-    console.log(!pageItem.cover, pageItem.index % 2 !== 0, pageItem.index);
     return (
       <div className="border h-5/6 w-2/6 bg-[#F9F9F9] flex flex-col justify-between">
-          <Content pageItem={pageItem} />
-         {!pageItem.cover && pageItem.index % 2 == 0 && (turnPage(setPageCounter, [2, 2], 80))}
-         {pageItem.cover && (turnPage(setPageCounter, [1, 2], 63))}
-         {Math.abs(pageItem.index % 2) == 1 && (turnPage(setPageCounter, [-1, -2, pageItem.index], null))}
+        <Content pageItem={pageItem} />
+        {!pageItem.cover && pageItem.index % 2 == 0 && (turnPage(setPageCounter, [2, 2], 80))}
+        {pageItem.cover && (turnPage(setPageCounter, [1, 2], 63))}
+        {Math.abs(pageItem.index % 2) == 1 && (turnPage(setPageCounter, [-1, -2, pageItem.index], null))}
       </div>
 
   )
