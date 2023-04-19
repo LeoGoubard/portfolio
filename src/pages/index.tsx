@@ -10,9 +10,19 @@ import Page from '../components/Page';
 import { PageType } from '../types';
 import { useTranslation } from "react-i18next";
 
-const Home = ({ changeLocale }: any) => {
-  const { t } = useTranslation();
 
+const Home = () => {
+  const { t, i18n } = useTranslation();
+
+  async function changeLocale () {
+    console.log('first', i18n.language)
+    if (i18n.language === 'en') {
+      i18n.changeLanguage('fr');
+    }
+    else {
+      i18n.changeLanguage('en');
+    }
+  }
   const pages: PageType[] = [
     {
       cover: true,

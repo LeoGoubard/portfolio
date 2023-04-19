@@ -14,17 +14,18 @@ type Props = {
     function turnPage(setPageCounter: Function, operations: (number)[], leftValue?: number | null): any {
       return (
         <div
-        onClick={() => setPageCounter(
-          (prevState: any) => (
-            {
-              ...prevState,
-              value1: operations[2] == 1 ? prevState.value1 - 1 : !!operations[2] ? prevState.value1 - 2 : prevState.value1 + operations[0],
-              value2: prevState.value2 + operations[1]
-            }
-            )
-            )} 
-            className={`absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-[83.5%] ${leftValue == 80 ? 'left-[80%]' : leftValue ? 'left-[63%]' : ''} w-20`}
-            ></div>
+          onClick={() => setPageCounter(
+            (prevState: any) => (
+              {
+                ...prevState,
+                value1: operations[2] == 1 ? prevState.value1 - 1 : !!operations[2] ? prevState.value1 - 2 : prevState.value1 + operations[0],
+                value2: prevState.value2 + operations[1]
+              }
+              )
+              )} 
+              className={`absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-[83.5%] ${leftValue == 80 ? 'left-[80%]' : leftValue ? 'left-[63%]' : ''} w-20`}
+            >
+        </div>
       )
     }
         

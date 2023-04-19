@@ -12,18 +12,18 @@ function Content({ pageItem }: Props) {
     const { t } = useTranslation();
     function timeLineContent(itemSocial: any) {
         return (
-            <>
+            <div>
                 <time className="mb-1 font-normal leading-none text-gray-400 text-lg dark:text-gray-500">{itemSocial.date}</time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-500">{itemSocial.content1}</h3>
                 <p className="mb-4 text-base border-b border-gray-100 font-normal text-gray-500 dark:text-gray-400">{itemSocial.content2}</p>
-            </>
+            </div>
         )
     }
 
     const socials = t('timeLine', { returnObjects: true });
   return (
     <>
-    {pageItem.cover && (
+        {pageItem.cover && (
             <CoverContent pageItem={pageItem} />
         )}
         {pageItem.timeLine && (
