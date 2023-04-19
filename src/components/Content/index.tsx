@@ -8,8 +8,10 @@ import { useTranslation } from "react-i18next";
 type Props = {
     pageItem: PageType
 }
+type MyStructure = Object[];
+
 function Content({ pageItem }: Props) {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     function timeLineContent(itemSocial: any) {
         return (
             <div>
@@ -19,8 +21,8 @@ function Content({ pageItem }: Props) {
             </div>
         )
     }
-
-    const socials = t('timeLine', { returnObjects: true });
+    const socials: MyStructure = t('timeLine', { returnObjects: true });
+    console.log(socials);
   return (
     <>
         {pageItem.cover && (
@@ -30,9 +32,9 @@ function Content({ pageItem }: Props) {
             <div className="flex flex-col h-full">
                 <ol className="relative border-l scrollbar-thin scrollbar-thumb-red-100 scrollbar-track-white-100 overflow-auto border-gray-200 m-5 dark:border-gray-700">     
                     {socials?.map((itemSocial: any, index: number) => (
-                            <li className="m-3 mt-6 first:mt-0" key={index}>
-                                {timeLineContent(itemSocial)}
-                            </li>
+                        <li className="m-3 mt-6 first:mt-0" key={index}>
+                            {timeLineContent(itemSocial)}
+                        </li>
                     ))}
                 </ol>
                 <div className="text-black flex justify-end w-full">{pageItem.index}</div>
@@ -41,5 +43,6 @@ function Content({ pageItem }: Props) {
     </>
     )
 }
+
 
 export default Content
