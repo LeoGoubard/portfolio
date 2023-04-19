@@ -9,8 +9,6 @@ import image from "../assets/desert.jpg"
 import Page from '../components/Page';
 import { PageType } from '../types';
 import { useTranslation } from "react-i18next";
-import i18n from "../i18n";
-
 
 const Home = ({ changeLocale }: any) => {
   const { t } = useTranslation();
@@ -21,28 +19,23 @@ const Home = ({ changeLocale }: any) => {
       index: 0,
     },
     {
-      cover: false,
       content: 'Page1',
       index: 1,
-      timeLine: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+      timeLine: true
     },
     {
-      cover: false,
       content: 'Page 2',
       index: 2
     },
     {
-      cover: false,
       content: 'Page 3',
       index: 3
     },
     {
-      cover: false,
       content: 'Page 4',
       index: 4
     },
     {
-      cover: false,
       content: 'Page 5',
       index: 5
     }

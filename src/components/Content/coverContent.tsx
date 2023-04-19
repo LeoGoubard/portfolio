@@ -10,7 +10,7 @@ type Props = {
 export default function CoverContent({ pageItem }: Props) {
     const { t } = useTranslation();
     const [text, count] = useTypewriter({
-        words: [t('cover.dynamicText1'), t('cover.dynamicText2')] || [],
+        words: [t('cover.firstAutoText'), t('cover.secondAutoText')] || [],
         loop: true,
         delaySpeed: 2000
     })
@@ -19,7 +19,7 @@ export default function CoverContent({ pageItem }: Props) {
     <>
     <div className="font-extrabold text-black ml-2">
         <div className="text-xs flex justify-end ">
-            <p className="font-extrabold text-black p-2">Leo goubard personnal portfolio</p>
+            <p className="font-extrabold text-black p-2">{t('cover.header')}</p>
         </div>
         <h1 className="text-7xl mt-2">Leo <br />Goubard</h1>
     </div>

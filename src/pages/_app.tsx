@@ -14,7 +14,6 @@ export default function App({ Component, pageProps }: AppProps) {
       i18n.changeLanguage('en');
     }
   }
-  i18n.on('languageChanged', (lng) => setLocale(i18n.language));
   return(
     <Suspense>
       <Component {...pageProps} locale={locale} changeLocale={changeLocale} />

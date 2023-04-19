@@ -1,9 +1,9 @@
 {
     "cover": {
-        "Hello": "Leo goubard personnal portfolio",
+        "header": "Leo goubard personnal portfolio",
         "job": "Javascript developer",
-        "dynamicText1": "Javascript developer 1.7 years of experience",
-        "dynamictext2": "For my love of Cinema and Literature"
+        "firstAutoText": "Javascript developer 1.7 years of experience",
+        "secondAutoText": "For my love of Cinema and Literature"
     },
     "timeLine": [
         {
