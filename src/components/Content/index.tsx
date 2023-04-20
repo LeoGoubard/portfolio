@@ -22,7 +22,6 @@ function Content({ pageItem }: Props) {
         )
     }
     const socials: MyStructure = t('timeLine', { returnObjects: true });
-    console.log(socials);
   return (
     <>
         {pageItem.cover && (
