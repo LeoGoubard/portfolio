@@ -10,7 +10,6 @@ import Page from '../components/Page';
 import { PageType } from '../types';
 import { useTranslation } from "react-i18next";
 
-
 const Home = () => {
   const { t, i18n } = useTranslation();
 
@@ -83,9 +82,10 @@ const Home = () => {
           <>
             <div className="h-5/6 w-3 bg-gradient-to-r from-[#F9F9F9]  via-[rgb(166,165,165)] to-[#F9F9F9] ">
             </div>
-            <Page key={pages[pageCounter.value2].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value2]}/>
+                <Page key={pages[pageCounter.value2].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value2]}/>
           </>
-        )}{/* 
+        )}
+        {/* 
         {pages.map((pageItem) => (
           <Page key={pageItem.index} setPageCounter={setPageCounter} pageItem={pageItem}/>
         ))} */}

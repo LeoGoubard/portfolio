@@ -11,8 +11,8 @@ type Props = {
   // className={`absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-full ${leftValue == 80 ? '-right-0' : leftValue ? 'left-[63%]' : ''} w-20`}
 
   function Page({ setPageCounter, pageItem }: Props) {
-
-    function turnPage(setPageCounter: Function, operations: (number)[], isLeft: boolean): any {
+    let classes = '';
+    function turnPage(setPageCounter: Function, operations: (number)[], isRight: boolean): any {
       return (
         <div
           onClick={() => setPageCounter(
@@ -24,7 +24,7 @@ type Props = {
               }
               )
               )} 
-            className={`absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-full ${isLeft ? '-right-0' : 'left-0'} w-20`}
+            className={`absolute bg-[rgb(36,36,36)] opacity-5 cursor-pointer h-full ${isRight ? '-right-0' : 'left-0'} w-20`}
   >
         </div>
       )

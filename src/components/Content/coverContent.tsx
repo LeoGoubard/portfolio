@@ -21,7 +21,7 @@ export default function CoverContent({ pageItem }: Props) {
         <div className="text-xs flex justify-end ">
             <p className="font-extrabold text-black p-2">{t('cover.header')}</p>
         </div>
-        <h1 className="sm:text-lg md:text-xl lg:text-7xl mt-2">Leo <br />Goubard</h1>
+        <h1 className="sm:text-xl lg:text-7xl mt-2">Leo <br />Goubard</h1>
     </div>
     <div>
         <h1 className="text-l text-black font-semibold ml-2">

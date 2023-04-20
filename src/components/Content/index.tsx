@@ -16,10 +16,18 @@ function Content({ pageItem }: Props) {
         {pageItem.cover && (
             <CoverContent pageItem={pageItem} />
         )}
-        {pageItem.timeLine && (
-            <TimeLineContent pageItem={pageItem} />
+
+        {!pageItem.cover && (
+            <>
+                {pageItem.timeLine && (
+                    <TimeLineContent />
+                )}
+                {!pageItem.timeLine && (
+                    <h1 className="text-lg font-semibold text-center text-black">Experience Professionnel</h1>
+                )}
+                <div className="text-black absolute flex text-xs justify-end bottom-0 right-2">{pageItem.index}/5</div>
+            </>
         )}
-        {!pageItem.cover && (<div className="text-black absolute flex text-xs justify-end bottom-0 right-2">{pageItem.index}/5</div>)}
     </>
     )
 }
