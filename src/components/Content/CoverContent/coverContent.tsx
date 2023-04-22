@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import { PageType } from '../../types';
+import { PageType } from '../../../types';
 import { useTranslation } from "react-i18next";
 type Props = {
     pageItem: PageType
@@ -17,7 +17,7 @@ export default function CoverContent({ pageItem }: Props) {
 
   return (
     <>
-    <div className="font-extrabold text-black ml-2">
+    <div className="relative font-extrabold text-black ml-2">
         <div className="text-xs flex justify-end ">
             <p className="font-extrabold text-black p-2">{t('cover.header')}</p>
         </div>

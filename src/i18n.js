@@ -20,13 +20,17 @@ i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
-  .init({
-    resources,
-    fallbackLng: 'en',
-    debug: true,
 
-    interpolation: {
-      escapeValue: false,
-    }
-  });
+  if(!i18n.isInitialized) {
+    i18n.init({
+      resources,
+      fallbackLng: 'en',
+      debug: true,
+  
+      interpolation: {
+        escapeValue: false,
+      }
+    });
+  }
+
 export default i18n;

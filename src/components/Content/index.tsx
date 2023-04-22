@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
-import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import React, { useState } from 'react'
 import { PageType } from '../../types';
-import CoverContent from './coverContent';
+import CoverContent from './CoverContent/coverContent';
 import TimeLineContent from './TimeLineContent';
+import ChapterContent from './ChapterContent';
 
 type Props = {
-    pageItem: PageType
+    pageItem: PageType,
+    setPageCounter: Function
 }
 
-function Content({ pageItem }: Props) {
-
+function Content({ pageItem, setPageCounter }: Props) {
   return (
     <>
         {pageItem.cover && (
@@ -20,10 +20,10 @@ function Content({ pageItem }: Props) {
         {!pageItem.cover && (
             <>
                 {pageItem.timeLine && (
-                    <TimeLineContent />
+                    <TimeLineContent setPageCounter={setPageCounter} />
                 )}
-                {!pageItem.timeLine && (
-                    <h1 className="text-lg font-semibold text-center text-black">Experience Professionnel</h1>
+                {pageItem.chapter && (
+                    <ChapterContent pageItem={pageItem} />
                 )}
                 <div className="text-black absolute flex text-xs justify-end bottom-0 right-2">{pageItem.index}/5</div>
             </>
