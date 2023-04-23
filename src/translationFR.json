@@ -58,6 +58,31 @@
             "content": "All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
           }
     ],
+    "projects": [
+      {
+        "image": "https://zupimages.net/up/23/16/ofax.png",
+        "title": "Covid-Tracker",
+        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
+        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "github": "https://github.com/LeoGoubard/Covid-19-Tracker",
+        "web": "https://covid-19-tracker-9fcd1.web.app"
+      },
+      {
+        "image": "https://zupimages.net/up/23/16/8u3j.png",
+        "title": "Netflix-Clone",
+        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
+        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "github": "https://github.com/LeoGoubard/netflix-clone",
+        "web": "https://netflix-clone-87645.web.app/"
+      },
+      {
+        "image": "https://zupimages.net/up/23/16/5kl9.png",
+        "title": "Spotify-Clone",
+        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
+        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "github": "https://github.com/LeoGoubard/Spotify-Clone"
+      }
+    ],
     "oclock": {
       "title": "O'Clock",
       "date": "Janvier 2020/Juillet 2020",

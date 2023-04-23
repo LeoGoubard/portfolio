@@ -24,7 +24,7 @@ const Home = () => {
   }
   const pages: PageType[] = [
     {
-      cover: true,
+      isCover: true,
       index: 0,
     },
     {
@@ -45,11 +45,25 @@ const Home = () => {
     },
     {
       content: 'Page 5',
-      index: 4
+      index: 4,
+      isProject: true,
+      projectIndex: 0
+    },
+    {
+      content: 'Page 5',
+      index: 5,
+      isProject: true,
+      projectIndex: 1
+    },
+    {
+      content: 'Page 5',
+      index: 6,
+      isProject: true,
+      projectIndex: 2
     },
     {
       content: 'Page 4',
-      index: 5,
+      index: 7,
       isChapter: true,
       chapterIndex: 1
     }

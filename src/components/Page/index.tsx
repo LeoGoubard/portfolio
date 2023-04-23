@@ -31,8 +31,8 @@ type Props = {
     return (
       <div className={`relative border h-5/6 w-2/6 bg-[#F9F9F9] flex flex-col justify-between`}>
         <Content pageItem={pageItem} setPageCounter={setPageCounter} />
-        {!pageItem.cover && pageItem.index % 2 == 0 && (turnPage(setPageCounter, [2, 2], true))}
-        {pageItem.cover && (turnPage(setPageCounter, [1, 2], true))}
+        {!pageItem.isCover && pageItem.index % 2 == 0 && (turnPage(setPageCounter, [2, 2], true))}
+        {pageItem.isCover && (turnPage(setPageCounter, [1, 2], true))}
         {Math.abs(pageItem.index % 2) == 1 && (turnPage(setPageCounter, [-1, -2, pageItem.index], false))}
       </div>
 

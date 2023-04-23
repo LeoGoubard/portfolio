@@ -1,12 +1,14 @@
 export type PageType = {
-    cover?: boolean,
+    isCover?: boolean,
     isTimeLine?: boolean,
     isChapter?: boolean,
     index: number,
     chapterIndex?: number,
     automaticWords?: string | null,
     content?: string,
-    isFormation?: boolean
+    isFormation?: boolean,
+    isProject?: boolean,
+    projectIndex?: number
 }
 
 export type TranslatedArr = [{
@@ -17,3 +19,12 @@ export type TranslatedArr = [{
     title?: string,
     date?: string,
 }];
+
+export type ProjectType = [{
+    image: string,
+    title: string,
+    description: string,
+    web?: string,
+    github: string,
+    stacks: string
+}]

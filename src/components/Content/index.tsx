@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { PageType } from '../../types';
 import CoverContent from './CoverContent/coverContent';
 import TimeLineContent from './TimeLineContent';
 import ChapterContent from './ChapterContent';
 import FormationContent from './FormationContent';
+import ProjectContent from './ProjectContent';
 
 
 type Props = {
@@ -12,32 +14,26 @@ type Props = {
 }
 
 function Content({ pageItem, setPageCounter }: Props) {
-    const { isChapter, isTimeLine, isFormation } = pageItem;
+    const { isChapter, isTimeLine, isFormation, isCover, isProject, projectIndex} = pageItem;
   return (
     <>
-        {pageItem.cover && (
+        {isCover ? (
             <CoverContent pageItem={pageItem} />
-        )}
-
-        {!pageItem.cover && (
+        ) : (
             <>
-                {pageItem.isTimeLine && (
+                {isTimeLine && (
                     <TimeLineContent setPageCounter={setPageCounter} />
                 )}
-                {pageItem.isChapter && (
+                {isChapter && (
                     <ChapterContent pageItem={pageItem} />
                 )}
-                {pageItem.isFormation && (
+                {isFormation && (
                     <FormationContent />
                 )}
-                {!pageItem.isFormation && !pageItem.isChapter && !pageItem.isTimeLine && (
-                    <div className="text-gray-700">
-                    <h1>Nom du projet</h1>
-                    <p>Stacks</p>
-                    <p>Liens github et site si hebergé</p>
-                    <p>images</p>
-                    </div>
+                {isProject && (
+                    <ProjectContent projectIndex={projectIndex}/>
                 )}
+                
                 <div className="text-black absolute flex text-xs justify-end bottom-0 right-2">{pageItem.index}/5</div>
             </>
         )}
