@@ -62,8 +62,14 @@ const Home = () => {
       projectIndex: 2
     },
     {
-      content: 'Page 4',
+      content: 'Page 5',
       index: 7,
+      isProject: true,
+      projectIndex: 3
+    },
+    {
+      content: 'Page 4',
+      index: 8,
       isChapter: true,
       chapterIndex: 1
     }
