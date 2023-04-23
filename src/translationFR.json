@@ -58,9 +58,32 @@
             "content": "All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
           }
     ],
-    "chapter": [{
+    "oclock": {
+      "title": "O'Clock",
+      "date": "Janvier 2020/Juillet 2020",
+      "description1": "Titre Professionnel Développeur Web et Web Mobile - Niveau III Domaine d’études Programmation informatique. Activités et associations :",
+      "description2": "Développement web, Intégration, programmation, Javascript, HTML, React, Node, Express, API REST, MYSQL.",
+      "description3": "La formation de 6 mois (840h), aussi labellisée « Grande École du Numérique ».",
+      "learn": "Apprendre",
+      "learnContent": "Découvrez toute la logique du développement informatique. Cette formation vous sert de tremplin grâce à l’apprentissage des technos web incontournables pour quiconque ambitionne une future carrière dans la tech.",
+      "build": "Concevoir",
+      "buildContent": "Au-delà de l’apprentissage des outils et langages web, la formation Socle vous permet d’aborder les problématiques de pilotage d’un projet : analyse du besoin, conception de cahier des charges, élaboration de récits utilisateurs, ou encore mise en place d’un cadre de travail agile.",
+      "dev": "Developpement",
+      "devContent": "On peut vouloir apprendre à faire du pain sans nécessairement désirer devenir boulanger. La formation a été pensée également pour celles et ceux qui veulent acquérir les compétences techniques nécessaires au développement de leur projet entrepreneurial."
+    },
+    "chapter": [
+      {
       "title": "Chapitre 1 - Formation",
-      "content": "Apres mon PVT en Nouvelle-Zelande, j'ai décidé de me former dans un metier plus intelectuel où je pourrais mettre à bien mon energie à schematiser des applications/logiciels. Gagner en compétence dans un domaine qui me permettrait de mettre à plat mes idées, creer des projets web, des jeux, des services et autres outils utiles (ou non) au quotidien. Ce pourquoi j'entâme en 2020 mon année de Formation à temps plein pour devenir Developpeur Web."
-    }]
+      "content1": "Apres mon PVT en Nouvelle-Zelande, j'ai décidé de me former dans un metier plus intelectuel où je pourrais mettre à bien mon energie à schematiser des applications/logiciels.",
+      "content2": "Gagner en compétence dans un domaine qui me permettrait de mettre à plat mes idées, creer des projets web, des jeux, des services et autres outils utiles (ou non) au quotidien.",
+      "content3": "Ce pourquoi j'entâme en 2020 mon année de Formation à temps plein pour devenir Developpeur Web."
+      },
+      {
+        "title": "Chapitre 2 - l'Envolé",
+        "content1": "Apres mon PVT en Nouvelle-Zelande, j'ai décidé de me former dans un metier plus intelectuel où je pourrais mettre à bien mon energie à schematiser des applications/logiciels.",
+        "content2": "Gagner en compétence dans un domaine qui me permettrait de mettre à plat mes idées, creer des projets web, des jeux, des services et autres outils utiles (ou non) au quotidien.",
+        "content3": "Ce pourquoi j'entâme en 2020 mon année de Formation à temps plein pour devenir Developpeur Web."
+      }
+  ]
 
 }

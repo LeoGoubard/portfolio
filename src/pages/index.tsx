@@ -30,25 +30,28 @@ const Home = () => {
     {
       content: 'Page1',
       index: 1,
-      timeLine: true
+      isTimeLine: true
     },
     {
       content: 'Page 2',
-      chapter: true,
+      isChapter: true,
       chapterIndex: 0,
       index: 2
     },
     {
       content: 'Page 3',
-      index: 3
-    },
-    {
-      content: 'Page 4',
-      index: 4
+      index: 3,
+      isFormation: true
     },
     {
       content: 'Page 5',
-      index: 5
+      index: 4
+    },
+    {
+      content: 'Page 4',
+      index: 5,
+      isChapter: true,
+      chapterIndex: 1
     }
   ]
   
