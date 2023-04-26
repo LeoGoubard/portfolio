@@ -30,7 +30,7 @@ function Content({ pageMax, pageItem, setPageCounter }: Props) {
                     <ChapterContent pageItem={pageItem} />
                 )}
                 {isFormation && (
-                    <FormationContent />
+                    <FormationContent pageItem={pageItem} />
                 )}
                 {isProject && (
                     <ProjectContent projectIndex={projectIndex}/>

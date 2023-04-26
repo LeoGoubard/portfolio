@@ -10,7 +10,8 @@ export type PageType = {
     isProject?: boolean,
     projectIndex?: number,
     ExperienceIndex?: number,
-    isExperience?: boolean
+    isExperience?: boolean,
+    formationContent?:  { alt: string; image: string; translations: { title: string; content: string; }; }[]
 }
 
 export type TranslatedArr = [{

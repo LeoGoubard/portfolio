@@ -1,10 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { useTranslation } from "react-i18next";
+import { PageType } from '../../../types';
 
-type Props = {}
+type Props = {
+    pageItem: PageType
+}
 
-export default function FormationContent({}: Props) {
+export default function FormationContent({ pageItem }: Props) {
     const { t } = useTranslation();
     const sectionGen = ({ index, alt, image, translations }: any) => {
         return (
@@ -15,32 +18,6 @@ export default function FormationContent({}: Props) {
             </div>
         )
     }
-    const itemstoGen: any[] = [
-        {
-            alt: "apprendre",
-            image: "https://zupimages.net/up/23/16/0gol.jpg",
-            translations: {
-                title: "learn",
-                content: "learnContent"
-            }
-        },
-        {
-            alt: "concevoir",
-            image: "https://zupimages.net/up/23/16/9spb.jpg",
-            translations: {
-                title: "build",
-                content: "buildContent"
-            }
-        },
-        {
-            alt: "developper",
-            image: "https://zupimages.net/up/23/16/b9nq.jpg",
-            translations: {
-                title: "dev",
-                content: "devContent"
-            }
-        },
-    ]
   return (
     <div className="text-gray-700 flex justify-center flex-col items-center">
         <h1 className="text-3xl m-2">{t('oclock.title')}</h1>
@@ -49,7 +26,7 @@ export default function FormationContent({}: Props) {
         <p className="text-sm mx-2 font-semibold">{t('oclock.description2')}</p>
         <p className="text-sm m-1">{t('oclock.description3')}</p>
         <div className="flex flex-col w-full">
-            {itemstoGen.map((genItem, index) => (
+            {pageItem.formationContent?.map((genItem, index) => (
                     sectionGen({ index, alt: genItem.alt, image: genItem.image, translations: genItem.translations })
                 )
             )}

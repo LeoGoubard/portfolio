@@ -41,7 +41,33 @@ const Home = () => {
     {
       content: 'Page 3',
       index: 3,
-      isFormation: true
+      isFormation: true,
+      formationContent: [
+        {
+            alt: "apprendre",
+            image: "https://zupimages.net/up/23/16/0gol.jpg",
+            translations: {
+                title: "learn",
+                content: "learnContent"
+            }
+        },
+        {
+            alt: "concevoir",
+            image: "https://zupimages.net/up/23/16/9spb.jpg",
+            translations: {
+                title: "build",
+                content: "buildContent"
+            }
+        },
+        {
+            alt: "developper",
+            image: "https://zupimages.net/up/23/16/b9nq.jpg",
+            translations: {
+                title: "dev",
+                content: "devContent"
+            }
+        },
+    ],
     },
     {
       content: 'Page 5',
