@@ -28,6 +28,8 @@
           {
             "date": "July 2020 - December 2020",
             "title": "Projects / Job seeking",
+            "isLinked": true,
+            "toGo": { "value1": 3, "value2": 4 },
             "content": "A formation for bein a developer."
 
           },
@@ -68,7 +70,7 @@
     "oclock": {
       "title": "O'Clock",
       "date": "Janvier 2020/Juillet 2020",
-      "description1": "Titre Professionnel Développeur Web et Web Mobile - Niveau III Domaine d’études Programmation informatique. Activités et associations :",
+      "description1": "Titre Professionnel Développeur Web et Web Mobile - Niveau III",
       "description2": "Développement web, Intégration, programmation, Javascript, HTML, React, Node, Express, API REST, MYSQL.",
       "description3": "La formation de 6 mois (840h), aussi labellisée « Grande École du Numérique ».",
       "learn": "Apprendre",
@@ -108,6 +110,22 @@
         "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
         "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
         "github": "https://github.com/LeoGoubard/SharingMoment-App-Mern"
+      },
+      {
+        "image": "https://camo.githubusercontent.com/b61e5e14fa54284302665905b7548c96dc36a81c500fbda2172f0ce95ce8302a/68747470733a2f2f692e6962622e636f2f44564634744e572f696d6167652e706e67",
+        "title": "Crypto-App",
+        "web": "https://serene-genie-ed57b8.netlify.app",
+        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
+        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "github": "https://github.com/LeoGoubard/Solidity-ReactProject"
+      },
+      {
+        "image": "https://camo.githubusercontent.com/651c6fe53413a6420174ed321877a8bddc3e1da1d21cfbc1233bb34f5f111f64/68747470733a2f2f7a7570696d616765732e6e65742f75702f32322f32362f31796e382e706e67",
+        "title": "Chat-App",
+        "web": "https://splendorous-treacle-5c22ab.netlify.app",
+        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
+        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "github": "https://github.com/LeoGoubard/chat-webApp"
       }
     ],
     "chapter": [

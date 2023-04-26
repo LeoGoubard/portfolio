@@ -14,7 +14,6 @@ const Home = () => {
   const { t, i18n } = useTranslation();
 
   async function changeLocale () {
-    console.log('first', i18n.language)
     if (i18n.language === 'en') {
       i18n.changeLanguage('fr');
     }
@@ -22,6 +21,7 @@ const Home = () => {
       i18n.changeLanguage('en');
     }
   }
+  
   const pages: PageType[] = [
     {
       isCover: true,
@@ -72,11 +72,34 @@ const Home = () => {
       index: 8,
       isChapter: true,
       chapterIndex: 1
-    }
+    },
+    {
+      content: 'Page 5',
+      index: 9,
+      isExperience: true,
+      ExperienceIndex: 0
+    },
+    {
+      content: 'Page 5',
+      index: 10,
+      isProject: true,
+      projectIndex: 4
+    },
+    {
+      content: 'Page 4',
+      index: 11,
+      isProject: true,
+      projectIndex: 5
+    },
+    {
+      content: 'Page 5',
+      index: 12,
+      isExperience: true,
+      ExperienceIndex: 1
+    },
   ]
   
-  const [pageCounter, setPageCounter] = useState({ value1: 0, value2: 0, min: 0, max: pages.length + 1})
-  console.log(pageCounter);
+  const [pageCounter, setPageCounter] = useState({ value1: 0, value2: 0, min: 0, max: pages.length})
   return (
     <div className="bg-[rgb(36,36,36)] z-10 text-white flex flex-col font-poppins justify-center h-screen">
       <Head>
@@ -101,13 +124,13 @@ const Home = () => {
           </div>
         </div>
         {pages[pageCounter.value1] && (
-          <Page key={pages[pageCounter.value1].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value1]}/>
+          <Page pageMax={pageCounter.max} key={pages[pageCounter.value1].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value1]}/>
         )}
         {pages[pageCounter.value2] && pageCounter.value1 !== 0 &&  (
           <>
             <div className="h-5/6 w-3 bg-gradient-to-r from-[#F9F9F9]  via-[rgb(166,165,165)] to-[#F9F9F9] ">
             </div>
-                <Page key={pages[pageCounter.value2].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value2]}/>
+                <Page pageMax={pageCounter.max} key={pages[pageCounter.value2].index} setPageCounter={setPageCounter} pageItem={pages[pageCounter.value2]}/>
           </>
         )}
         {/* 

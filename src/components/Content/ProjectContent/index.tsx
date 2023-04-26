@@ -17,8 +17,8 @@ const ProjectContent = ({ projectIndex }: Props) => {
             <img className="h-30 w-50" src={image} alt=""/>
             <div className="flex justify-start flex-col w-full m-2">
                 <div className="flex flex-row">
-                    <a href={github} target="_blank" className="w-5 h-5 m-2"><img src="https://zupimages.net/up/23/16/ihiu.png" alt="" /></a>
-                    {web && (<a href={web} target="_blank" className="w-5 h-5 m-2"><img src="https://zupimages.net/up/23/16/vxbf.png" alt="" /></a>)}
+                    <a href={github} target="_blank" className="z-30 w-5 h-5 m-2"><img src="https://zupimages.net/up/23/16/ihiu.png" alt="" /></a>
+                    {web && (<a href={web} target="_blank" className="z-30 w-5 h-5 m-2"><img src="https://zupimages.net/up/23/16/vxbf.png" alt="" /></a>)}
                 </div>
                 <h1 className="text-2xl font-semibold m-2">{title}</h1>
                 <p className="text-sm m-2">{description}</p>
