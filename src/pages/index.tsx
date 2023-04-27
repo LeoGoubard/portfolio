@@ -103,7 +103,7 @@ const Home = () => {
       content: 'Page 5',
       index: 9,
       isExperience: true,
-      ExperienceIndex: 0
+      experienceIndex: 0
     },
     {
       content: 'Page 5',
@@ -121,11 +121,11 @@ const Home = () => {
       content: 'Page 5',
       index: 12,
       isExperience: true,
-      ExperienceIndex: 1
+      experienceIndex: 1
     },
   ]
   
-  const [pageCounter, setPageCounter] = useState({ value1: 0, value2: 0, min: 0, max: pages.length})
+  const [pageCounter, setPageCounter] = useState({ value1: 0, value2: 0, min: 0, max: pages.length - 1})
   return (
     <div className="bg-[rgb(36,36,36)] z-10 text-white flex flex-col font-poppins justify-center h-screen">
       <Head>

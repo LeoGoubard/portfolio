@@ -9,7 +9,7 @@ export type PageType = {
     isFormation?: boolean,
     isProject?: boolean,
     projectIndex?: number,
-    ExperienceIndex?: number,
+    experienceIndex?: number,
     isExperience?: boolean,
     formationContent?:  { alt: string; image: string; translations: { title: string; content: string; }; }[]
 }

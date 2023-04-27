@@ -12,7 +12,7 @@ type Props = {
 
   function Page({ setPageCounter, pageItem, pageMax }: Props) {
     function turnPage(setPageCounter: Function, operations: (number)[], isRight: boolean): any {
-      if ((pageMax - 1) !== pageItem.index) {
+      if (pageMax !== pageItem.index) {
 
         return (
           <div

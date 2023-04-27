@@ -9,55 +9,57 @@
         {
             "date": "Novembre 2022 - Present",
             "title": "Formation TypeScript, Projets",
-            "content": "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
+            "content": "Apres mon experience chez Solotech, j'avais besoin de renforcer mes connaissances en TypeScript, ce pourquoi je me forme toujours aujourd'hui en plus de faire plusieurs projets que vous retrouverez sur ce site."
           },
           {
             "date": "Aout 2022 - Novembre 2022",
             "title": "Solotech - Montreal",
-            "content": "In full remote with a Canadian Client in a project with Vue/Node/GraphQL/AWS",
+            "content": "Mission Freelance - En full remote avec un client Canadien sur les stacks suivante: Vue/Node/Typesript/GraphQL/AWS",
             "image": "https://cdn.shopify.com/s/files/1/0614/9691/8254/files/SMALL-Solotech-symbol-4colors.png?v=1639492596"
           },
           {
             "date": "Janvier 2021 - Mai 2022",
             "title": "Joinery Business Solution - Nantes",
-            "content": "A Saas application in MERN stack for a carpentry Society.",
+            "isLinked": true,
+            "toGo": { "value1": 9, "value2": 10 },
+            "content": "CDI - Application SaaS pour une société de Menuiserie sur les stacks suivante: React/Node/Express/Mongo/AWS.",
             "image": "https://zupimages.net/up/23/16/bgxd.png"
           },
           {
             "date": "Juillet 2020 - Decembre 2020",
-            "title": "Projects / Job seeking",
+            "title": "Projets / Recherche d'opportunité",
             "isLinked": true,
             "toGo": { "value1": 3, "value2": 4 },
-            "content": "A formation for bein a developer."
+            "content": "Suite à la formation O'Clock, j'ai crée plusieurs projets divers afin de renforcer mes competences développé lors des 6 derniers mois, avant d'etre recruté par ma premiere experience professionnelle."
           },
           {
             "date": "Janvier 2020 - Juillet 2020",
             "title": "O'Clock",
             "isLinked": true,
             "toGo": { "value1": 3, "value2": 4 },
-            "content": "A formation for bein a developer.",
+            "content": "Formation de 6mois afin d'avoir un minimum de compétences dans le developpement Web et Web Mobile, à nous de transformer l'essai par la suite.",
             "image": "https://www.frenchtechbordeaux.com/wp-content/uploads/2021/11/Oclock.png"
           },
           {
             "date": "Fevrier 2019 - Decembre 2019",
-            "title": "Jobs",
-            "content": "Many differents jobs, travel through the two islands."
+            "title": "Intérim",
+            "content": "Differents metiers abordé dans cette periode de transition professionnel en attendant la formation de Developpeur, d'autres cordes à mon arc afin de monter en compétences dans differents domaine et forger mes capacités professionnelle dans des metiers comme serveur, barman, btp etc."
           },
           {
             "date": "Fevrier 2018 - Fevrier 2019",
             "title": "WHV New Zealand",
-            "content": "Many differents jobs, travel through the two islands.",
+            "content": "Grande aventure d'un an de voyage et de découvertes de nombreux differents métier, arrivé avec peu en poche je suis revenus en france avec un maitrise de l'anglais, un choix de carriere professionnel dessiné et une multitude d'aptitudes divers en milieu professionnel, barman, serveur, btp, livreur, peintre, vigneron, laveur, cuisinier.",
             "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAA0lBMVEUBIWn////IEC4AG2cAAF3EAADHACTEAA335ufYc3zGABrosrfHACbY2+QAAGAABmGhprzEx9QtPXcAAFn13N7TW2iCGU/ko6nRDig1QnkAF2XGABgaMHFrdJkAGmYADmPQSFgAEmTSVGJeaJEQKW3z1dj/8PGxt8kAAFAAC2KaoLhATH/KHjdIVITj6O/T1uBWYYzOPlDae4XWZXF3f6DgkJiNlK/dhY6WeJMmNnPnrbPuv8Owtcjwyc3/+PjOAADMLULt8/eDiqeTaId8ADaciqOuFHO6AAAIHUlEQVR4nO2daVviSBCAU+QCjCjXuBJEQEwQ5FYcBmRldvf//6VNh0NhIPRlCFDvF43Pk6brlSaVplOtDHKwgZvRVIUe7ZKcdJGMfSV5Qf54qTG0o2ojl5zkvFmLRiy9mmNp4RBYev4PgWkWgXL0qVom7ctL6MZSHulYliemEFn2k1ugDH275B2DPkGB4vp2yzsOfUICRfUFyYu+PntLn5kEiulbyotvlRd9fdv/6QwCRfTtkxd9fUF9pxLIr2+/vGPQJyiQVx+NvOjrG1HEECiQTx+dvHSGJYE/BLRx7BTIo0/4RSOEYCzs+k5JHkEoHlZ9pyaPIBATm77gJPk45RG442LRd6ryCJyx0es7ZXkErvho9Z26PAJHjHT6zkEegTlOGn2RkVf45vYV5lj364uMPKXwEII/tnj36YuOPK+vEM53JwwxB+uLkjzvzQehvP0UBoGB+qIkT1FSLripUF5JoRZY6+zU16lFSZ6iZMEJcwaMTiDs1AeRkqcUulCFrtzRexVIql5cCkzOMfXqI4O++EA3F2duk1esp4I7IDPUlOvojuTRe72PxmTu4WbF6zu1vtzr52l/vm0njX0vPpHhT12QhRv9BrLLQwktzyfrJbB78Ioh4aNqlCn61LrQM3rQrc0PMyPxps9B3/zaRpjqMX26POjUxJs+B31K9gWmg3K1Wu15Pet5P8uDKbzIuQRLCjPK+pSrURv6ujFfuWUZeh/aI0kXpbgcbow1fcaNnGYdOTdZpewE3u2FPvsdJlpJSruKYsph3Z7nT06zf0uKUtEeYFom/qzyFB7k3fnGIs1f0uK8akLe15eHpsRs8tCCgpGo7xp0b0wYMR2uUR8z2dnYNgfTgWmPZxLvew8tKBhp+tQM5PULaMOFngeJSz8OLSgYafqeGmA58FJ/AceCxpOsZs9Fn9aO+8keSQHjbbzysqGOACZZMmZVLwWEkbTRe2hBwcjS543dVbLnpYDyRu+hBQUjTd+kVlkdVJQJ6mPj6etwVfHSEREOLSgY1CdE5PUZcrA24rbkNGsfWs8+EnKorvuzqpLareyPQCIl5nxQ0qzweGO2eSyp3VCf6yh1u6zTqJLCjPRkPS3ahPmLUUlhnoS+7Ix5LktSmKegr9QEuGX89JMU5inou7p2pqwz0algtHrN3QwplzftObo+iFPreyzry/PMhH+aW6xre17/e0RtJzv7ddGW+f8qLZZYrcvTF0mKoSfiTO8+71Rj/dR0RtpXhvyoFZ+nDFTzMLqfH4lPaalU8tyA5ZFb3ribp0tboca98Eztvtz5uKCb4M5/f2kJ9opOXjpTD9BXp2tChsDCHXeGXVp2cmzby3w1LbYMkFaepgYuzqVvRqi3Clmhzr/wUbuD+Idu214MSe8D/cOBO6HpfJao96ysD0vgFUz4rzP3tUt41edd0l/hUrkX6AlbxHuf6whFYOUFRL6+VbMNeHwm/Xl+hEZWoCes0VI8VRSCQC3tQFPkIq49QN9LC4w+dAUGLnukVM+0fbvAFPSZU9417odgWsmkZcNv7pHLEyXlE5XfK7ByB8kLocUX2uW7d82IP+vvTHXfvsAXIfXzvN8hcLnMW0vn9CrcVriXfasKDBLQbkNiAOyzfgp/dAxPk0sXWGs1b31G8GroMMnMj5pNZgHe2B2Dm9Vc78dv9gySPzKmWgaSBVYaq1aev0zRztj1aR3wv0j3UkDosI5ekagYK2nIFZi6ncHrR9nDu2o+ez96vRxcsyceqrpM9u6VS2C7dohFxFzHRarAAhluumH5Z1uWWZ5yJR6V4cq5mr1mGb2i0XBUEZIq0BtuTm/x6voNdApc977FL0nPVZH+POFIuGpYUQukiOCp1oa3+URYDoYidwwcCM8pcVZQoxRIcx+r1uHGf/mkd7/FLEAM4THEXb+PSiCNjkIXepZlJ2P2u8SFj3QIfwAJVI+kEEijjzxomuw5v3QjAbWQC5kIyhOsXbpPYJ/mOkAeNH2DNnh3XDAUmWriQFCecOXcYIE0a1wKLfh495K9zAwGY94bVl4E5Umo2xwkkGaFVWoCDkn2Sl4KGAcl3NErKE9K1fDdAmn0ZWfQqfiDnNxx8U83cSEoT1LN+l0CKfSVWp/J3n2tHfLohVxV/8uaYyccVnkrfbb1FZt5x4StAgcUT1RWhq3P5NC742K4ZZDAP//+WPGfS8ov3LLNWHq3ix4/f6zzk/xxyHT/5AncrATh/qT49qyyNkcvb9U3FV/7V/Frf7B+9vpnbYra+sd9qH/UIQmpZBKCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAcE1wuKEM4OqSdLWDukniYh7pB6ioS6Q+rpEfIOqSfGd+yQekZ8xw6pZ8Rih9RDd+O4WBYWUistf4fU1qrUUMhPTh8lanNRaOh25Po7pLqjW+5aQ+eH2pqtHjH8lYwlf62OZq3DV52NPuQp6cdej1QaIvUNSamhcu/jEdwI1Ow9CrQ7mPZMy1rskGpZZk+0OulZQepSLUuTxubVSWshl4w4avzSpEt7lmB10nNEa80c07dnOrMWDlxWsu3FjizJsdS69OcB2SHVihm2QfY3lrhD6pnw1AAvZ+5DX4+ZMndIPRO09ti0x9CBsW2OQy8UduyoRcj3pvBQf/BSwDwUcfQy8TSEN786KUkB32CIo5cJUqunsdift8FWnwdR1Bp8JnteChh6mb/j5r7RSX1O0hdSnQbeszGgbhQj1rr47mNh0xbaQxAEQRAEQRAEQRAEQRAEQZAT4X+IxhNpDSzGLgAAAABJRU5ErkJggg=="
           },
           {
             "date": "Septembre 2014 - Juillet 2017",
-            "title": "Bachelor degree in Aesthetic of cinema",
-            "content": "All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
+            "title": "Licence en Esthetique du cinema",
+            "content": "Etudes de cinema à Metz qui me donnera la passion de l'annimation, de la realisation, de l'ecriture, et un certain esprit critique sur ce qui ce fait, un recul sur mes avis et une envie irrépréssible de realiser mes propres projets cinematographique !"
           },
           {
             "date": "Septembre 2010 - Juillet 2014",
             "title": "Bac ",
-            "content": "All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
+            "content": "Etudes d'architectures ce qui eveillera en moi l'envie de realiser des projets d'envergure, de comprendre que toutes accomplissements a besoin de fondations solide."
           }
     ],
     "projects": [
@@ -65,46 +67,46 @@
         "image": "https://zupimages.net/up/23/16/ofax.png",
         "title": "Covid-Tracker",
         "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
-        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle.",
         "github": "https://github.com/LeoGoubard/Covid-19-Tracker",
         "web": "https://covid-19-tracker-9fcd1.web.app"
       },
       {
         "image": "https://zupimages.net/up/23/16/8u3j.png",
         "title": "Netflix-Clone",
-        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
-        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "stacks": "React - MAterialUI - Firebase",
+        "description": "Simple projet d'integration HTML/CSS via du React avec l'utilisation de l'api 'movie-trailer' afin de recuperer les trailers de chaques films, et movieDB pour la liste de films. Le tout hébergé via Firebase.",
         "github": "https://github.com/LeoGoubard/netflix-clone",
         "web": "https://netflix-clone-87645.web.app/"
       },
       {
         "image": "https://zupimages.net/up/23/16/5kl9.png",
         "title": "Spotify-Clone",
-        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
-        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "stacks": "React - Firebase",
+        "description": "Simple projet d'integration HTML/CSS via du React avec l'utilisation de l'api Spotify afin de recuperer les données concernant l'utilisateur connecté.",
         "github": "https://github.com/LeoGoubard/Spotify-Clone"
       },
       {
         "image": "https://zupimages.net/up/23/16/vnzl.png",
         "title": "Sharing-Moments",
-        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
-        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "stacks": "React - Node - Express - MongoDB - Redux - MaterialUI",
+        "description": "Premier projet fullstack avec une stack MERN, connexion, partage de message, avec possibilité de commenté le message partage à tout les utilisateurs, egalement de liker les interactions, toutes ces données stockés sur un cluster MongoDB et par conscéquent creation d'un CRUD en back",
         "github": "https://github.com/LeoGoubard/SharingMoment-App-Mern"
       },
       {
         "image": "https://camo.githubusercontent.com/b61e5e14fa54284302665905b7548c96dc36a81c500fbda2172f0ce95ce8302a/68747470733a2f2f692e6962622e636f2f44564634744e572f696d6167652e706e67",
         "title": "Crypto-App",
         "web": "https://serene-genie-ed57b8.netlify.app",
-        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
-        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "stacks": "React - TailWind - Solidity - Chai",
+        "description": "Légère application d'echange de cryptomonnaie via Metamask, avec la creation d'un smart_contract et intégration de quelques tests via Chai.",
         "github": "https://github.com/LeoGoubard/Solidity-ReactProject"
       },
       {
         "image": "https://camo.githubusercontent.com/651c6fe53413a6420174ed321877a8bddc3e1da1d21cfbc1233bb34f5f111f64/68747470733a2f2f7a7570696d616765732e6e65742f75702f32322f32362f31796e382e706e67",
         "title": "Chat-App",
         "web": "https://splendorous-treacle-5c22ab.netlify.app",
-        "stacks": "React - Chart.js - Leaflet - MaterialUI - Firebase",
-        "description": "Petit projet en React, avec quelques librairies pour la map(Leaflet) et le graphique(Graph.js). l'application a été faite lors du début du Covid, les statistiques ont au fur et à mesure explosées qui fait qu'aujourd'hui les bulles indiquant la quantité par pays de cas sont enormes pas rapport la map. Cependant l'application reste fonctionelle",
+        "stacks": "React - Node - Twilio - Netlify",
+        "description": "Projet de communication, creation de topics, categories en live",
         "github": "https://github.com/LeoGoubard/chat-webApp"
       }
     ],
@@ -129,11 +131,99 @@
       "content3": "Ce pourquoi j'entâme en 2020 mon année de Formation à temps plein pour devenir Developpeur Web."
       },
       {
-        "title": "Chapitre 2 - l'Envolé",
-        "content1": "Apres mon PVT en Nouvelle-Zelande, j'ai décidé de me former dans un metier plus intelectuel où je pourrais mettre à bien mon energie à schematiser des applications/logiciels.",
-        "content2": "Gagner en compétence dans un domaine qui me permettrait de mettre à plat mes idées, creer des projets web, des jeux, des services et autres outils utiles (ou non) au quotidien.",
-        "content3": "Ce pourquoi j'entâme en 2020 mon année de Formation à temps plein pour devenir Developpeur Web."
+        "title": "Chapitre 2 - Le Commencement",
+        "content1": "Enfin apres 6 mois d'auto formation et projets divers je me fais repérer par une startup Nantaise, seul bémole c'est que nous ne sommes que 2 developpeurs en sortie de bootcamp.",
+        "content2": "Challenge par la constitution de cette startup, nous avons un gros projet à produire, une motiviation debordante il s'agira donc de mettre à bien tous nos efforts dans un but commun sans compter nos heures.",
+        "content3": "Mettre à bien nos compétences assidûment acquises et chercher constament à les améliorer en mettant un réel point d'interêt sur le recul de nos decisions et code."
       }
-  ]
+    ],
+    "experience": [
+      {
+        "title": "Joinery Business Solution",
+        "job": "Developpeur React/Node",
+        "lieu": "Nantes, Pays de la Loire, France",
+        "site": "Iziqo.fr",
+        "domain": "Construction(Menuiserie)",
+        "team": [0, 1],
+        "content": "Projet SaaS - une partie Menuiserie où Janneau menuiserie peut cataloguer ses produits et définir/configurer les problèmes métiers de chacune de leurs menuiseries. Une seconde partie Artisan où le Client/Artisan va pouvoir créer son Devis et recevoir sa menuiserie en chantier ou chez un particulier.",
+        "creation": [
+          "Participation/Animation cérémonies Agile",
+          "Analyse des besoins techniques",
+          "Propositions de choix techniques/Architecture",
+          "Audit Technique et édition de documentation",
+          "Chiffrage/Estimations des difficultés techniques de développements",
+          "Relecture et contrôle de la qualité de code du second développeur",
+          "Prise en charge de la passation de connaissances pour mon remplaçant",
+          "Intégration HTML/CSS",
+          "Développement de Modules côté Menuiserie pour les difficultés métiers de chaque typo de produit:",
+          "Module de calcul de Surfaces",
+          "Module de calcul de Contraintes",
+          "Module de calcul de Limites dimensionnelles",
+          "Module de calcul Descente de charges",
+          "Module de calcul de Prix",
+          "Module de Schéma 2D ( dessiné lors de la sélection du Client/Artisan afin de prévisualiser sa commande)"
+        ],
+        "project": [
+          "Github",
+          "Trello",
+          "Slack"
+        ],
+        "javascript": [
+          "Utilisation de Visual Studio Code",
+          "Développement de batch Shell",
+          "Utilisation de NodeJS/ReactJS",
+          "Génération d'XML via JSON enregistré dans un FTP pour la réception de Janneau Menuiserie et l'interprétation de leurs ERP"
+        ],
+        "aws": [
+          "S3",
+          "Route53",
+          "Elastic Beanstalk",
+          "EC2"
+        ]
+      },
+      {
+        "title": "Solotech",
+        "job": "Developpeur Vue/Node",
+        "lieu": "Montreal, Canada",
+        "site": "solotech.com",
+        "domain": "Multimedia",
+        "team": [0, 1, 2, 3, 4, 5],
+        "content": "Projet SaaS - une partie Menuiserie où Janneau menuiserie peut cataloguer ses produits et définir/configurer les problèmes métiers de chacune de leurs menuiseries. Une seconde partie Artisan où le Client/Artisan va pouvoir créer son Devis et recevoir sa menuiserie en chantier ou chez un particulier.",
+        "creation": [
+          "Participation/Animation cérémonies Agile",
+          "Analyse des besoins techniques",
+          "Propositions de choix techniques/Architecture",
+          "Audit Technique et édition de documentation",
+          "Chiffrage/Estimations des difficultés techniques de développements",
+          "Relecture et contrôle de la qualité de code du second développeur",
+          "Prise en charge de la passation de connaissances pour mon remplaçant",
+          "Intégration HTML/CSS",
+          "Développement de Modules côté Menuiserie pour les difficultés métiers de chaque typo de produit:",
+          "Module de calcul de Surfaces",
+          "Module de calcul de Contraintes",
+          "Module de calcul de Limites dimensionnelles",
+          "Module de calcul Descente de charges",
+          "Module de calcul de Prix",
+          "Module de Schéma 2D ( dessiné lors de la sélection du Client/Artisan afin de prévisualiser sa commande)"
+        ],
+        "project": [
+          "Github",
+          "Trello",
+          "Slack"
+        ],
+        "javascript": [
+          "Utilisation de Visual Studio Code",
+          "Développement de batch Shell",
+          "Utilisation de NodeJS/ReactJS",
+          "Génération d'XML via JSON enregistré dans un FTP pour la réception de Janneau Menuiserie et l'interprétation de leurs ERP"
+        ],
+        "aws": [
+          "S3",
+          "Route53",
+          "Elastic Beanstalk",
+          "EC2"
+        ]
+      }
+    ]
 
 }
