@@ -38,7 +38,7 @@ const ExperienceContent = ({experienceIndex}: Props) => {
         </div>
         <div className="flex flex-row">
             <h1>Site:</h1>
-            <a href="Iziqo.fr" className="mx-2 underline">{experiences[experienceIndex].site}</a>
+            <a href={experiences[experienceIndex].site} target="_blank" className="mx-2 underline">{experiences[experienceIndex].site}</a>
         </div>
         <div className="flex flex-row">
             <h1>Domaine:</h1>

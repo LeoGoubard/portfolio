@@ -15,6 +15,8 @@
           {
             "date": "August 2022 - November 2022",
             "title": "Solotech - Montreal",
+            "isLinked": true,
+            "toGo": { "value1": 11, "value2": 12 },
             "content": "Freelance Mission - In full remote with a Canadian Client in a project with Vue/Node/Typescript/GraphQL/AWS",
             "image": "https://cdn.shopify.com/s/files/1/0614/9691/8254/files/SMALL-Solotech-symbol-4colors.png?v=1639492596"
 
@@ -22,6 +24,8 @@
           {
             "date": "January 2021 - May 2022",
             "title": "Joinery Business Solution - Nantes",
+            "isLinked": true,
+            "toGo": { "value1": 9, "value2": 10 },
             "content": "CDI - A Saas application for a carpentry Society with React/Node/React/Node/Express/Mongo/AWS.",
             "image": "https://zupimages.net/up/23/16/bgxd.png"
           },
@@ -52,7 +56,7 @@
             "date": "February 2018 - February 2019",
             "title": "WHV New Zealand",
             "content": "Great adventure of a year of travel and discovery of many different trades, arrived with little in pocket I returned to France with a mastery of English, a choice of professional career mapped out and a multitude of diverse skills in the workplace, barman, waiter, construction, delivery, painter, winemaker, washer, cook.",
-            "image": "data:image/png;base64,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"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/1280px-Flag_of_New_Zealand.svg.png"
 
           },
           {
@@ -120,7 +124,7 @@
       "date": "Janvier 2020/Juillet 2020",
       "description1": "Professional title Web and Mobile Web Developer - Niveau III",
       "description2": "Web development, integration, programming, Javascript, HTML, React, Node, Express, REST API, MYSQL.",
-      "description3": "The 6-month training (840h), also labeled 'Grande École du Numérique'.",
+      "description3": "6-month training (840h), also labeled 'Grande École du Numérique'.",
       "learn": "Learn",
       "learnContent": "Discover the logic of computer development. This training serves as a springboard for learning the essential web technologies for anyone who has ambitions for a future career in technology.",
       "build": "Design",
@@ -145,28 +149,29 @@
     "experience": [
       {
         "title": "Joinery Business Solution",
-        "job": "Developpeur Javascript",
+        "job": "React/Node developer",
         "lieu": "Nantes, Pays de la Loire, France",
-        "site": "Iziqo.fr",
-        "domain": "Construction(Menuiserie)",
+        "site": "https://www.iziqo.fr",
+        "domain": "Construction(Carpentry)",
         "team": [0, 1],
-        "content": "Projet SaaS - une partie Menuiserie où Janneau menuiserie peut cataloguer ses produits et définir/configurer les problèmes métiers de chacune de leurs menuiseries. Une seconde partie Artisan où le Client/Artisan va pouvoir créer son Devis et recevoir sa menuiserie en chantier ou chez un particulier.",
+        "content": "SaaS Project - A carpentry part where the Carpentry society can catalog its products and define/configure the problems of each of their carpentry. A second part Artisan where the Customer / Craftsman will be able to create his Estimate and receive his joinery in building site or at a private site.",
         "creation": [
-          "Participation/Animation cérémonies Agile",
-          "Analyse des besoins techniques",
-          "Propositions de choix techniques/Architecture",
-          "Audit Technique et édition de documentation",
-          "Chiffrage/Estimations des difficultés techniques de développements",
-          "Relecture et contrôle de la qualité de code du second développeur",
-          "Prise en charge de la passation de connaissances pour mon remplaçant",
-          "Intégration HTML/CSS",
-          "Développement de Modules côté Menuiserie pour les difficultés métiers de chaque typo de produit:",
-          "Module de calcul de Surfaces",
-          "Module de calcul de Contraintes",
-          "Module de calcul de Limites dimensionnelles",
-          "Module de calcul Descente de charges",
-          "Module de calcul de Prix",
-          "Module de Schéma 2D ( dessiné lors de la sélection du Client/Artisan afin de prévisualiser sa commande)"
+          "Participation/Animation of Agile ceremonies",
+          "Technical needs analysis",
+          "Proposals of technical choices/Architecture",
+          "Technical audit and documentation edition",
+          "Costing/Estimations of technical difficulties of developments",
+          "Code review and quality control of the second developer's code",
+          "Taking charge of the knowledge transfer for my replacement",
+          "HTML/CSS Integration",
+          "Continuous debugging of the application",
+          "Development of Modules on the Carpentry side for the business difficulties of each product type:",
+          "Surface calculation",
+          "Constraint calculation",
+          "Calculation of dimensional limits",
+          "Calculation of load distribution",
+          "Price calculation",
+          "2D diagram (drawn during the selection of the Customer/Artisan in order to preview his order)"
         ],
         "project": [
           "Github",
@@ -174,10 +179,9 @@
           "Slack"
         ],
         "javascript": [
-          "Utilisation de Visual Studio Code",
-          "Développement de batch Shell",
-          "Utilisation de NodeJS/ReactJS",
-          "Génération d'XML via JSON enregistré dans un FTP pour la réception de Janneau Menuiserie et l'interprétation de leurs ERP"
+          "Use of Visual Studio Code",
+          "Use of NodeJS/ReactJS",
+          "Generation of XML via JSON saved in an FTP for the reception of the carpentry society and the interpretation of their ERP"
         ],
         "aws": [
           "S3",
@@ -188,45 +192,47 @@
       },
       {
         "title": "Solotech",
-        "job": "Developpeur Vue/Node",
+        "job": "Vue/Node developer",
         "lieu": "Montreal, Canada",
-        "site": "solotech.com",
-        "domain": "Multimedia",
+        "site": "https://www.solotech.com",
+        "domain": "Media",
         "team": [0, 1, 2, 3, 4, 5],
-        "content": "Projet SaaS - une partie Menuiserie où Janneau menuiserie peut cataloguer ses produits et définir/configurer les problèmes métiers de chacune de leurs menuiseries. Une seconde partie Artisan où le Client/Artisan va pouvoir créer son Devis et recevoir sa menuiserie en chantier ou chez un particulier.",
+        "content": "Freelance mission for a Canadian Client in Full Remote, the project consisted in stabilizing a first version of a feed sharing platform for international events with virtual meeting rooms, document sharing, global and private internal chat, live management of the interface from the admin page with also statistics about the event.",
         "creation": [
-          "Participation/Animation cérémonies Agile",
-          "Analyse des besoins techniques",
-          "Propositions de choix techniques/Architecture",
-          "Audit Technique et édition de documentation",
-          "Chiffrage/Estimations des difficultés techniques de développements",
-          "Relecture et contrôle de la qualité de code du second développeur",
-          "Prise en charge de la passation de connaissances pour mon remplaçant",
-          "Intégration HTML/CSS",
-          "Développement de Modules côté Menuiserie pour les difficultés métiers de chaque typo de produit:",
-          "Module de calcul de Surfaces",
-          "Module de calcul de Contraintes",
-          "Module de calcul de Limites dimensionnelles",
-          "Module de calcul Descente de charges",
-          "Module de calcul de Prix",
-          "Module de Schéma 2D ( dessiné lors de la sélection du Client/Artisan afin de prévisualiser sa commande)"
+          "Participation/Animation of Agile ceremonies",
+          "Technical needs analysis",
+          "Proposals of technical choices/Architecture",
+          "Technical audit and documentation edition",
+          "Costing/Estimations of technical difficulties of developments",
+          "Code review and quality control of 5 developer's code",
+          "HTML/CSS Integration",
+          "Implement Cypress Integration Tests on 3 pages, 10 different components",
+          "Continuous debugging of the application",
+          "Factorisation of some previously implemented features",
+          "Implement a Primevue graph representing the connections and disconnections of users over given periods of each event, downloadable",
+          "Integration of a Map Leaflet to visualize the different connection points around the world, downloadable",
+          "CRUD on admin side to manage new/existing users"
         ],
         "project": [
-          "Github",
-          "Trello",
-          "Slack"
+          "Bitbucket",
+          "Jira",
+          "Microsoft Teams"
         ],
         "javascript": [
-          "Utilisation de Visual Studio Code",
-          "Développement de batch Shell",
-          "Utilisation de NodeJS/ReactJS",
-          "Génération d'XML via JSON enregistré dans un FTP pour la réception de Janneau Menuiserie et l'interprétation de leurs ERP"
+          "USe of Visual Studio Code",
+          "Use of NodeJS/VueJS",
+          "Use of Typescript Front & Back",
+          "Request via GraphQL",
+          "Use of Jitsi for the videoconference part"
         ],
         "aws": [
+          "Amplify",
+          "DynamoDB",
+          "Cognito",
+          "CloudWatch",
+          "AppSync",
           "S3",
-          "Route53",
-          "Elastic Beanstalk",
-          "EC2"
+          "Route53"
         ]
       }
     ]
